@@ -1,0 +1,12 @@
+name: release-tag
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  release-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: echo hello
